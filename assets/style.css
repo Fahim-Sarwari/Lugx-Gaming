@@ -55,9 +55,14 @@ ul li a, .logo a{
     border-radius: 30px;
 }
 
+.hovered{
+    border-radius: 30px;
+}
+
 .hovered:hover{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
+    transition: all 0.5s ease;
 }
 
 nav ul li a{
