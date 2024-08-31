@@ -17,6 +17,7 @@ body{
     background-image: url(../images/banner-bg.jpg);
     background-size: cover;
     background-position: fixed;
+    position: relative;
 }
 
 header{
@@ -58,10 +59,14 @@ nav ul li a{
 
 .home-bg{
     width: 100%;
-    height: 700px;
+    height: 770px;
+    max-height: 770px;
     background-image: url(../images/banner-bg.jpg);
     background-size: cover;
     background-position: fixed;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
 }
 
 .container{
@@ -176,4 +181,223 @@ form input{
     position: absolute;
     margin-top: 375px;
     margin-left: 55px;
+}
+
+.two-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    z-index: 10;
+    margin-top: 220px;
+}
+
+.box{
+    min-width: 270px;
+    min-height: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #999;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.box img{
+    background-color: #0173f1;
+    padding: 15px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.box img:hover{
+    background-color: #fa4d5a;
+}
+
+/* Trending */
+
+.trending{
+    width: 90%;
+    margin: auto;
+    margin-top: 240px;
+}
+
+.title-h3{
+    color: #fa4d5a;
+    margin-bottom: 20px;
+}
+
+.trending-h1{
+    font-size: 40px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.view-all a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #fa4d5a;
+}
+
+.trending-games{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.games{
+    height: 290px;
+    background-color: #eee;
+    border-radius: 25px;
+}
+
+.text{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.text-sub{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.text-sub h2 a, .text-sub a{
+    text-decoration: none;
+}
+
+.text-sub-title{
+    color: #000;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -20px;
+}
+
+.text-sub-icon{
+    color: #ffffff;
+    background-color: #fa4d5a;
+    padding: 9px 11px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.text-sub-title:hover{
+    color: #0173f1;
+}
+
+.text-sub-icon:hover{
+    background-color: #0173f1;
+}
+
+.games img{
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+}
+
+.price-trend13{
+    background-color: #0191eb;
+    padding: 10px 20px;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -185px;
+    margin-left: 180px;
+
+}
+
+.price-trend24{
+    background-color: #0191eb;
+    padding: 10px 20px;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 15px;
+    margin-top: -185px;
+    margin-left: 180px;
+}
+
+.gray-text{
+    color: #999;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Most Played */
+
+.most-played-bg{
+    margin-top: 130px;
+    width: 100%;
+    height: 620px;
+    background-color: #eee;
+    border-radius: 150px;
+}
+
+.most-played{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.mst-games{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mstp-games{
+    width: 100%;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mstp-games img{
+    width: 100%;
+    height: 170px;
+    border-radius: 25px;
+    margin-bottom: 5px;
+
+}
+
+.mstp-games h2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.text-mstp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4px;
+
+}
+
+.game-name{
+    margin-bottom: 0px;
+}
+
+.explore{
+    background-color: #fa4d5a;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color: #ffffff;
+}
+
+.explore a{
+    text-decoration: none;
+    color: #fff;
 }
