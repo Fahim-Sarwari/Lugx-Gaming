@@ -380,7 +380,7 @@ form input{
 .text-mstp{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     margin-bottom: 4px;
 
@@ -408,4 +408,135 @@ form input{
 .explore a{
     text-decoration: none;
     color: #fff;
+}
+
+/* Top Caregories */
+
+.top-cate{
+    width: 90%;
+    height: 500px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-tp{
+    margin-bottom: 10px;
+    color: #fa4d5a;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.title-1-tp{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.top-games{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+.tp-sub-games{
+    background-color: #0173f1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tp-sub-games img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.tp-sub-games h3{
+    text-align: center;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+/* last section */
+
+.main-1{
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img-1{
+    position: absolute;
+    z-index: -1;
+}
+
+.img-1 img{
+    border-radius: 25px;
+}
+
+.text-1{
+    width: 450px;
+    height: 600px;
+    background-color: #eee;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -660px;
+    margin-top: 80px;
+}
+
+.text-2{
+    width: 450px;
+    height: 465px;
+    background-color: #eee;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 650px;
+    margin-top: 215px;
+}
+
+.txt-1-sub{
+    width: 65%;
+    margin: 70px auto;
+}
+
+.txt-1-sub p{
+    color: #444;
+    margin-bottom: 60px;
+}
+
+.h3-title{
+    color: #fa4d5a;
+    font-weight: 1000;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.h1-title{
+    margin-bottom: 50px;
+}
+
+.h1-title h1{
+    font-size: 45px;
+}
+
+.color-h1-title{
+    color: #0173f1;
+}
+
+.shop-now{
+    text-decoration: none;
+    background-color: #fa4d5a;
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
 }
