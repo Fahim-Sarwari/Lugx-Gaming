@@ -135,6 +135,7 @@ nav ul li a{
     border-radius: 25px;
     position: absolute;
     margin-left: 270px;
+    margin-top: -49px;
 }
 
 .search-btn:hover{
@@ -147,7 +148,7 @@ nav ul li a{
     padding-right: 228px;
     padding-left: 20px;
     border-radius: 25px;
-    position: absolute;
+    position: relative;
 }
 
 form input{
@@ -471,6 +472,7 @@ form input{
     margin: auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 110px;
 }
 
 .img-1{
@@ -539,4 +541,72 @@ form input{
     color: #fff;
     border-radius: 25px;
     padding: 15px 30px;
+}
+
+.txt-2-sub{
+    width: 75%;
+    margin: 80px auto;
+}
+
+.txt-2-sub h3{
+    color: #fa4d5a;
+    font-weight: 1000;
+    font-size: 16px;
+    margin-bottom: 20px;  
+}
+
+.h-one-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.h-one-title-last{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 45px;
+}
+
+.email-input input{
+    outline: none;
+    background-color: #fff;
+    padding: 17px 0px;
+    padding-left: 20px;
+    padding-right: 150px;
+    border-radius: 35px;
+    border: none;
+}
+
+.email-input input:focus{
+    outline: 4px solid rgba(1, 115, 241, 0.3);
+}
+
+.btn-email{
+    text-decoration: none;
+    position: absolute;
+    color: #fff;
+    background-color: #fa4d5a;
+    padding: 15px 35px;
+    border-radius: 35px;
+    margin-left: -180px;
+}
+
+.btn-email:hover{
+    background-color: #0173f1;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/footer-bg.jpg);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    text-align: center;
+}
+
+footer p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: #fff
 }
