@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Header-Shop */
+
+.header-shop-bg{
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/page-heading-bg.jpg);
+
+}
