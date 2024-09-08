@@ -8,16 +8,28 @@ body{
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Header-Shop */
-
-.header-shop-bg{
-	width: 100%;
-	height: 150px;
-	background-image: url(../images/page-heading-bg.jpg);
-	background-position: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
+.background-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/page-heading-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    z-index: -1;
 }
+
+header {
+    position: relative; /* Ensure the header is positioned relative to the background image */
+    z-index: 1; /* Place the header above the background image */
+}
+
+
+/* Header-Shop */
 
 .header-shop{
 	width: 90%;
@@ -37,7 +49,7 @@ body{
 
 .nav-shop ul li{
 	list-style-type: none;
-	margin-left: 30px;
+	margin-left: 35px;
 }
 
 .nav-shop ul li a{
@@ -45,6 +57,7 @@ body{
 	border-radius: 35px;
 	padding: 10px 20px;
 	color: #fff;
+	font-weight: 450;
 }
 
 .nav-hover:hover{
@@ -52,9 +65,85 @@ body{
 }
 
 .sign-in{
-	background-color: #fd344c;
+	background-color: #eb505c;
 }
 
 .main-focus{
 	background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* body */
+
+.txt-body{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 250px;
+	
+}
+
+.txt-body h3 a, h1, .txt-body h3{
+	text-decoration: none;
+	color: #fff;
+}
+
+.txt-body h3 a, .txt-body h3{
+	font-weight: 400;
+}
+
+.txt-body h1{
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.filters{
+	width: 90%;
+	margin: auto;
+}
+
+.filters{
+	display: flex;
+	justify-content: center;
+	gap: 35px;
+	margin-bottom: 80px;
+}
+
+.filters input[type="radio"] {
+	display: none;
+}
+
+.filters label{
+	font-weight: 800;
+	font-size: 17px;
+	color: #333;
+	background-color: #eee;
+	padding: 8px 17px;
+	border-radius: 35px;
+}
+
+.filters label:hover{
+	cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+	background-color: #eb505c;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+.games-list-cata {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.game-adventure {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
