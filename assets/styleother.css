@@ -18,7 +18,7 @@ body{
     background-image: url(../images/page-heading-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 400px;
+    background-size: cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -28,8 +28,8 @@ body{
 }
 
 header {
-    position: relative; /* Ensure the header is positioned relative to the background image */
-    z-index: 1; /* Place the header above the background image */
+    position: relative;
+    z-index: 1; 
 }
 
 
@@ -312,4 +312,71 @@ footer p{
 	font-size: 20px;
 	text-align: center;
 	padding-top: 30px;
+}
+
+
+/* Product Details Page */
+
+.background-pd{
+	width: 100%;
+	height: 440px;
+	background-image: url(../images/page-heading-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	z-index: -1;
+}
+
+#nav-pd{
+	width: 88%;
+	margin: auto;
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#nav-pd ul{
+	display: flex;
+	gap: 20px;
+	padding-top: 15px;
+}
+
+#nav-pd ul li{
+	list-style-type: none;
+}
+
+#nav-pd ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17.5px;
+	font-weight: 350;
+	padding: 8.5px 21px;
+	border-radius: 35px;
+}
+
+#nav-pd ul li .hovers:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+	transition: all 0.2s ease;
+}
+
+.text-top-page{
+	text-align: center;
+	margin-top: 105px;
+}
+
+.text-top-page h1{
+	font-size: 55px;
+	margin-bottom: 15px;
+}
+
+.text-top-page h3 , h3 a{
+	color: #fff;
+	font-weight: 500;
+}
+
+.text-top-page h3 a{
+	text-decoration: none;
 }
