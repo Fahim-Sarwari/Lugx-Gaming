@@ -246,14 +246,17 @@ input[type="radio"]:checked + label {
 	gap: 15px;
 }
 
-.buttons-01 p a{
+.buttons a{
 	text-decoration: none;
-	font-size: 19px;
-	font-weight: 700;
 }
 
 .buttons p{
 	padding-top: 7px;
+}
+
+.buttons-01 p{
+	font-size: 19px;
+	font-weight: 700;
 }
 
 .buttons-01{
@@ -264,7 +267,7 @@ input[type="radio"]:checked + label {
 	text-align: center;
 }
 
-.buttons-01 p a{
+.buttons-01 p{
 	color: #000;
 }
 
@@ -272,7 +275,7 @@ input[type="radio"]:checked + label {
 	background-color: #016fed;
 }
 
-#focused p a{
+#focused p{
 	color: #fff;
 }
 
@@ -282,7 +285,7 @@ input[type="radio"]:checked + label {
 	cursor: pointer;
 }
 
-.buttons-01:hover p a{
+.buttons-01:hover p{
 	color: #fff;
 	transition: all 0.1s ease;
 }
