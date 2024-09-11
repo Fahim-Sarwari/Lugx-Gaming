@@ -125,6 +125,8 @@ header {
 
 .filters label:hover{
 	cursor: pointer;
+	color: #eb505c;
+	transition: all 0.2s ease;
 }
 
 input[type="radio"]:checked + label {
@@ -133,17 +135,174 @@ input[type="radio"]:checked + label {
 	transition: all 0.3s ease;
 }
 
-.games-list-cata {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    width: 90%;
-    margin: auto;
+.game-list{
+	width: 90%;
+	margin: 70px auto 80px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 25px;
 }
 
-.game-adventure {
-    background-color: #f8f8f8;
-    padding: 15px;
-    border-radius: 10px;
+.game-list a{
+	text-decoration: none;
 }
 
+.game-link {
+    transition: all 0.3s ease;
+}
+
+.game-link[style="display: none;"] {
+    opacity: 0;
+    height: 0;
+}
+
+
+.game-list .game-link{
+	background-color: #eee;
+	height: 285px;
+	border-radius: 25px;
+}
+
+.game-link:hover{
+	cursor: default;
+}
+
+.games img:hover{
+	cursor: pointer;
+}
+
+.text-icon .icon-shop:hover{
+	cursor: pointer;
+}
+
+.games h3:hover{
+	cursor: text;
+}
+
+.game-link:hover .icon-shop{
+	background-color: #016fed;
+}
+
+.game-link:hover .game-name{
+	color: #0191eb;
+}
+
+.games img{
+	width: 100%;
+	border-radius: 35px;
+}
+
+.price-tag{
+	background-color: #0191eb;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 10px;
+	border-radius: 15px;
+	display: inline-block;
+	position: absolute;
+	margin-left: -65px;
+	margin-top: 20px;
+}
+
+.del-price{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.text-icon{
+	width: 80%;
+	margin: 20px auto 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.game-catagory{
+	color: #777;
+	font-weight: 550;
+}
+
+.icon-shop{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #eb505c;
+	padding: 12px;
+	border-radius: 50%;
+}
+
+.game-name{
+	color: #000;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 25px;
+}
+
+.buttons{
+	width: 90%;
+	margin: 0px auto 180px;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.buttons-01 p a{
+	text-decoration: none;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.buttons p{
+	padding-top: 7px;
+}
+
+.buttons-01{
+	background-color: #eee;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.buttons-01 p a{
+	color: #000;
+}
+
+#focused{
+	background-color: #016fed;
+}
+
+#focused p a{
+	color: #fff;
+}
+
+.buttons-01:hover{
+	background-color: #016fed;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.buttons-01:hover p a{
+	color: #fff;
+	transition: all 0.1s ease;
+}
+
+/* footer */
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/footer-bg.jpg);
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+}
+
+footer p{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+}

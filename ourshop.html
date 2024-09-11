@@ -6,6 +6,7 @@
     <title>Our Shop</title>
     <link rel="stylesheet" href="assets/styleother.css">
     <link rel="stylesheet" href="assets/respnsive.css">
+    <script src="assets/app.js"></script>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <!-- fontawesome -->
@@ -43,163 +44,173 @@
     </div>
 
     <div class="filters">
-        <input type="radio" id="all" name="catagory" checked>
+        <input type="radio" id="all" name="category" checked>
         <label for="all" id="f-label">SHOW ALL</label>
-        <input type="radio" id="adventure" name="catagory">
+        <input type="radio" id="adventure" name="category">
         <label for="adventure" class="labels">ADVENTURE</label>
-        <input type="radio" id="strategy" name="catagory">
+        <input type="radio" id="strategy" name="category">
         <label for="strategy" class="labels">STRATEGY</label>
-        <input type="radio" id="racing" name="catagory">
+        <input type="radio" id="racing" name="category">
         <label for="racing" class="labels">RACING</label>
     </div>
 
-    <div class="games-list-cata">
+    <div class="game-list">
+        <a href="#" class="game-link" data-category="adventure">
+            <div class="games">
+                <img src="images/trending-01.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$36</del><br>$24</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Warframe</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="racing">
+            <div class="games">
+                <img src="images/trending-02.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$32</del><br>$22</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Tower of Fantasy</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="strategy">
+            <div class="games">
+                <img src="images/trending-03.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$45</del><br>$30</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Free Fire</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="adventure">
+            <div class="games">
+                <img src="images/trending-04.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$36</del><br>$20</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Yu-Gi-Oh!</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="strategy">
+            <div class="games">
+                <img src="images/trending-03.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$38</del><br>$24</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Free Fire</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="racing">
+            <div class="games">
+                <img src="images/trending-04.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$30</del><br>$20</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Yu-Gi-Oh!</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="adventure">
+            <div class="games">
+                <img src="images/trending-01.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$30</del><br>$19</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Warframe</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="racing">
+            <div class="games">
+                <img src="images/trending-02.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$28</del><br>$20</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Tower of Fantasy</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="racing">
+            <div class="games">
+                <img src="images/trending-04.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$36</del><br>$28</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Yu-Gi-Oh!</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="adventure">
+            <div class="games">
+                <img src="images/trending-01.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$40</del><br>$31</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Warframe</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="adventure">
+            <div class="games">
+                <img src="images/trending-02.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$32</del><br>$21</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Tower of Fantasy</h3>
+            </div>
+        </a>
+        <a href="#" class="game-link" data-category="strategy">
+            <div class="games">
+                <img src="images/trending-03.jpg" alt="">
+                <p class="price-tag"><b><del class="del-price">$46</del><br>$34</b></p>
+                <div class="text-icon">
+                    <h5 class="game-catagory">ACTION</h5>
+                    <span class="fas fa-bag-shopping icon-shop"></span>
+                </div>
+                <h3 class="game-name">Free Fire</h3>
+            </div>
+        </a>
+    </div>
 
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
+    <div class="buttons">
+        <div class="buttons-01">
+            <p><a href="#"><</a></p>
         </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
+        <div class="buttons-01">
+            <p><a href="#">1</a></p>
         </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
+        <div class="buttons-01" id="focused">
+            <p><a href="#">2</a></p>
         </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
+        <div class="buttons-01">
+            <p><a href="#">3</a></p>
         </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
-        </div>
-        <div class="game-adventure">
-            <img src="images/categories-01.jpg" alt="">
-            <p><b><del>$36</del><br>$24</b></p>
-            <div class="text-game-list">
-                <div class="h3-icon"></div>
-                    <h3>action</h3>
-                    <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-                <h2>Assissian Creed</h2>
-            </div>
+        <div class="buttons-01">
+            <p><a href="#">></a></p>
         </div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+    <!-- footer -->
+    
+    <footer>
+        <p>Copyright &copy; 2048 LUGX Gaming Company. All rights reserved.  Design: TemplateMO</p>
+    </footer>
 </body>
 </html>
