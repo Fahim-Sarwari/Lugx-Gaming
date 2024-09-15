@@ -331,9 +331,9 @@ footer p{
 }
 
 #nav-pd{
-	width: 88%;
+	width: 83%;
 	margin: auto;
-	padding-top: 45px;
+	padding-top: 40px;
 	display: flex;
 	justify-content: space-between;
 }
