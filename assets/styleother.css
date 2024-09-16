@@ -69,7 +69,7 @@ header {
 }
 
 .sign-in{
-	background-color: #eb505c;
+	background-color: #ff6b6b;
 }
 
 .main-focus{
@@ -133,7 +133,7 @@ header {
 	transition: all 0.2s ease;
 }
 
-input[type="radio"]:checked + label {
+.filters input[type="radio"]:checked + label {
 	background-color: #eb505c;
 	color: #fff;
 	transition: all 0.3s ease;
@@ -331,7 +331,7 @@ footer p{
 }
 
 #nav-pd{
-	width: 83%;
+	width: 85%;
 	margin: auto;
 	padding-top: 40px;
 	display: flex;
@@ -379,4 +379,164 @@ footer p{
 
 .text-top-page h3 a{
 	text-decoration: none;
+}
+
+.shop-info{
+	width: 90%;
+	margin: 250px auto 60px;
+	display: flex;
+	gap: 100px;
+}
+
+.shop-image{
+	width: 45%;
+}
+
+.shop-text{
+	width: 55%;
+}
+
+.shop-text-sub{
+	width: 90%;
+}
+
+.shop-image img{
+	width: 100%;
+}
+
+.shop-text h1{
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.shop-text p del{
+	color: #aaa;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.twotwo{
+	font-size: 30px;
+	color: #016fed;
+	margin-left: 10px;
+}
+
+#para-first{
+	margin-bottom: 60px;
+}
+
+.para{
+	margin-top: 10px;
+}
+
+.buy-button{
+	margin: 60px 0px 60px;
+	display: flex;
+	gap: 10px;
+}
+
+.buy-button input{
+	text-align: center;
+}
+
+.buy-button input[type="text"] {
+	font-size: 18px;
+	height: 50px;
+	width: 80px;
+	border-radius: 35px;
+	background-color: #eee;
+	border: none;
+}
+
+.buy-button input:focus{
+	outline: 4px solid rgba(1, 115, 241, 0.3);
+}
+
+.buy-button a{
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #eb505c;
+	color: #fff;
+	padding: 13px 25px;
+	border-radius: 35px;
+}
+
+.buy-button a:hover{
+	background-color: #016fed;
+	transition: all 0.2s ease;
+}
+
+.game-info p{
+	width: 270px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.title-info{
+	color: #bbb;
+}
+
+.the-info, .the-info a{
+	color: #016fed;
+}
+
+.the-info a{
+	text-decoration: none;
+}
+
+#after-div{
+	width: 90%;
+	margin: auto;
+	border: none;
+	height: 0.5px;
+	background-color: #bbb;
+	margin-bottom: 50px;
+}
+
+.desc-container{
+	width: 90%;
+	margin: auto;
+	padding: 40px 70px;
+	border-radius: 25px;
+	background-color: #eee;
+}
+
+.tab-radio{
+	display: none;
+}
+
+.tab-label{
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+}
+
+.tab-radio:checked + .tab-label{
+	color: #007bff;
+}
+
+#content1, #content2{
+	margin-top: 20px;
+}
+
+.para-in-content{
+	margin-top: 25px;
+}
+
+.desc-container div p{
+	line-height: 1.7;
+}
+
+.tab-content{
+	display: none;
+}
+
+#tab-1:checked ~ #content1,
+#tab-2:checked ~ #content2{
+	display: block;
 }
