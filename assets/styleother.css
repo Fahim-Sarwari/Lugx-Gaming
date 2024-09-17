@@ -317,6 +317,8 @@ footer p{
 
 /* Product Details Page */
 
+/* Header */
+
 .background-pd{
 	width: 100%;
 	height: 440px;
@@ -361,6 +363,8 @@ footer p{
 	background-color: rgba(255, 255, 255, 0.1);
 	transition: all 0.2s ease;
 }
+
+/* Body */
 
 .text-top-page{
 	text-align: center;
@@ -540,3 +544,68 @@ footer p{
 #tab-2:checked ~ #content2{
 	display: block;
 }
+
+.related{
+	width: 90%;
+	margin: 100px auto 140px;
+}
+
+#first-child{
+	color: #ff6b6b;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.related-sub-div p a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.related-sub-div p{
+	background-color: #ff6b6b;
+	padding: 15px 30px;
+	border-radius: 35px;
+}
+
+.related-sub-div p:hover{
+	background-color: #007bff;
+	transition: all 0.3s ease;
+}
+
+.related-sub-div{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px auto 40px;
+}
+
+.related-sub-div h1{
+	color: #000;
+}
+
+.related-games{
+	display: flex;
+	justify-content: space-between;
+	gap: 15px;
+}
+
+.games-div{
+	height: 258px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 35px;
+}
+
+.games-div h3{
+	margin: 18px 0px 15px;
+}
+
+.games-div a img{
+	width: 100%;
+	border-radius: 35px;
+}
+
+/* Footer */
