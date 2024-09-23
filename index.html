@@ -10,7 +10,9 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- favicon -->
     <link rel="icon" href="favicon/android-chrome-192x192.png" type="image/png">
     <link rel="icon" href="favicon/android-chrome-512x512.png" type="image/png">
@@ -23,14 +25,14 @@
     <!-- Header -->
     <div class="background"></div>
     <header>
-        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="logo"><img src="images/logo.png" alt="logo-image"></div>
         <nav class="home-nav">
             <ul>
                 <li><a href="#" class="focused">Home</a></li>
                 <li><a href="ourshop.html" class="hovered">Our Shop</a></li>
                 <li><a href="product-details.html" class="hovered">Product Details</a></li>
                 <li><a href="contact.html" class="hovered">Contact us</a></li>
-                <li><a href="index.html" class="focused-orange">SIGN IN</a></li>
+                <li><a href="index.html" class="sign-in">SIGN IN</a></li>
             </ul>
         </nav>
     </header>
@@ -40,8 +42,8 @@
     <div class="container">
         <div class="home-txt">
             <div class="style-txt">
-                <h2 class="h2">WELCOME TO LUGX</h2>
-            <h1 class="first-line">BEST GAMING SITE <br> EVER!</h1>
+                <h1 class="lugx">WELCOME TO LUGX</h1>
+            <h2 class="gaming-site">BEST GAMING SITE <br> EVER!</h2>
             <img src="images/caption-dec.png" alt="caption-style" class="caption-dec">
             <p class="home-para">LUGX Gaming is a luxury gaming shop for those who love gaming. We have high quality premuim games with discounted price of up to 40%. Come online and buy the game you want. Don't forget if you bring five friends, you will get 1 game for free.</p>
             </div>
@@ -53,86 +55,95 @@
             </div>
         </div>
         <div class="home-img">
-            <div class="style-img">
-                <img src="images/banner-image.jpg" alt="" class="assissan-img">
-                <h3 class="discounted-first">$22</h3>
-                <h1 class="discounted-rate">-40%</h1>
+            <div class="home-img-style">
+                <img src="images/banner-image.jpg" alt="banner-image" class="assissan-img">
+                <p class="discounted-price"><b>$22</b></p>
+                <p class="discounted-percentage"><b>-40%</b></p>
             </div>
         </div>
     </div>
-    <div class="two-section">
+
+    <div class="four-section">
         <div class="box">
-            <a href="#"><img src="images/cloud.png" alt=""></a>
-            <h2>Free Storage</h2>
+            <a href="#"><img src="images/cloud.png" alt="icon-image"></a>
+            <p>Free Storage</p>
         </div>
         <div class="box">
-            <a href="#"><img src="images/user.png" alt=""></a>
-            <h2>More Users</h2>
+            <a href="#"><img src="images/user.png" alt="icon-image"></a>
+            <p>More Users</p>
         </div>
         <div class="box">
-            <a href="#"><img src="images/reply.png" alt=""></a>
-            <h2>Replay Ready</h2>
+            <a href="#"><img src="images/reply.png" alt="icon-image"></a>
+            <p>Replay Ready</p>
         </div>
         <div class="box">
-            <a href="#"><img src="images/layout.png" alt=""></a>
-            <h2>Easy Layout</h2>
+            <a href="#"><img src="images/layout.png" alt="icon-image"></a>
+            <p>Easy Layout</p>
         </div>
     </div>
 
     <!-- trending part -->
     
     <div class="trending">
-        <h4 class="title-h3">TRENDING</h4>
+        <h2 class="title-trending">TRENDING</h2>
         <div class="title">
-            <h1 class="trending-h1">Trending Games</h1>
-            <h3 class="view-all"><a href="#">VIEW ALL</a></h3>
+            <h2 class="trending-2">Trending Games</h2>
+            <p class="view-all"><a href="#">VIEW ALL</a></p>
         </div>
+
         <div class="trending-games">
-            <div class="games">
-                <img src="images/trending-01.jpg" alt="">
-                <p class="price-trend13"><b><del>$28</del><br>$20</b></p>
-                <div class="text">
-                    <div class="text-sub">
-                        <h3 class="gray-text">Action</h3>
-                        <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+
+            <a href="product-details.html" class="trending-div-link">
+                <div class="games">
+                    <img src="images/trending-01.jpg" alt="Warframe">
+                    <p class="price-1-3"><del>$28</del><br><b>$20</b></p>
+                    <div class="text">
+                        <div class="text-sub">
+                            <p>Action</p>
+                            <a href="#"><span class="fas fa-bag-shopping icon-shop"></span></a>
+                        </div>
+                        <h3 class="game-title">Warframe</h3>
                     </div>
-                        <h2><a href="#" class="text-sub-title">Dragon Ball</a></h2>
                 </div>
-                
-            </div>
-            <div class="games">
-                <img src="images/trending-02.jpg" alt="">
-                <h3 class="price-trend24">$44</h3>
-                <div class="text">
-                    <div class="text-sub">
-                        <h3 class="gray-text">Action</h3>
-                        <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+            </a><a href="product-details.html" class="trending-div-link">
+                <div class="games">
+                    <img src="images/trending-02.jpg" alt="Tower of Fantasy">
+                    <p class="price-1-3"><del>$28</del><br><b>$20</b></p>
+                    <div class="text">
+                        <div class="text-sub">
+                            <p>Action</p>
+                            <a href="#"><span class="fas fa-bag-shopping icon-shop"></span></a>
+                        </div>
+                        <h3 class="game-title">Tower of Fantasy</h3>
                     </div>
-                        <h2><a href="#" class="text-sub-title">Dragon Ball</a></h2>
                 </div>
-            </div>
-            <div class="games">
-                <img src="images/trending-03.jpg" alt="">
-                <p class="price-trend13"><b><del>$64</del><br>$44</b></p>
-                <div class="text">
-                    <div class="text-sub">
-                        <h3 class="gray-text">Action</h3>
-                        <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+            </a><a href="product-details.html" class="trending-div-link">
+                <div class="games">
+                    <img src="images/trending-03.jpg" alt="Super People">
+                    <p class="price-1-3"><del>$28</del><br><b>$20</b></p>
+                    <div class="text">
+                        <div class="text-sub">
+                            <p>Battle Royal</p>
+                            <a href="#"><span class="fas fa-bag-shopping icon-shop"></span></a>
+                        </div>
+                        <h3 class="game-title">Super People</h3>
                     </div>
-                        <h2><a href="#" class="text-sub-title">Dragon Ball</a></h2>
                 </div>
-            </div>
-            <div class="games">
-                <img src="images/trending-04.jpg" alt="">
-                <h3 class="price-trend24">$44</h3>
-                <div class="text">
-                    <div class="text-sub">
-                        <h3 class="gray-text">Action</h3>
-                        <a href="#" class="text-sub-icon"><i class="fa-solid fa-bag-shopping"></i></a>
+            </a><a href="product-details.html" class="trending-div-link">
+                <div class="games">
+                    <img src="images/trending-04.jpg" alt="Yu Gi Oh!">
+                    <p class="price-1-3"><del>$28</del><br><b>$20</b></p>
+                    <div class="text">
+                        <div class="text-sub">
+                            <p>Trading Card</p>
+                            <a href="#"><span class="fas fa-bag-shopping icon-shop"></span></a>
+                        </div>
+                        <h3 class="game-title">Yu Gi Oh!</h3>
                     </div>
-                        <h2><a href="#" class="text-sub-title">Dragon Ball</a></h2>
                 </div>
-            </div>
+            </a>
+
+            
         </div>
     </div>
 
