@@ -181,15 +181,15 @@ form input{
 .four-section{
     width: 88%;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     z-index: 10;
     margin-top: 10rem;
 }
 
 .box{
-    min-width: 260px;
+    max-width: 100%;
+    width: 260px;
     min-height: 200px;
     background-color: #ffffff;
     box-shadow: 0 0 10px #999;
@@ -259,7 +259,7 @@ form input{
 .trending-games{
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     gap: 0.6rem;
 }
 
@@ -295,23 +295,12 @@ form input{
     background-color: #0173f1;
     padding: 0.5rem 1rem;
     border-radius: 0.7rem;
-    margin-top: -190px;
-    margin-left: 195px;
+    margin-top: -185px;
+    margin-left: 190px;
 }
 
 .price-1-3 del{
     font-size: 0.9rem;
-}
-
-.price-2-4{
-    text-align: right;
-    position: absolute;
-    color: #fff;
-    background-color: #0173f1;
-    padding: 0.5rem 1rem;
-    border-radius: 0.7rem;
-    margin-top: -190px;
-    margin-left: 195px;
 }
 
 .text{
@@ -347,17 +336,22 @@ form input{
 /* Most Played */
 
 .most-played-bg{
-    margin-top: 130px;
+    margin-top: 7rem;
     width: 100%;
     height: 620px;
     background-color: #F5F5F5;
-    border-radius: 150px;
+    border-radius: 8rem;
 }
 
 .most-played{
-    width: 90%;
+    width: 88%;
     margin: auto;
     padding-top: 100px;
+}
+
+.title h2{
+    font-size: 1.7rem;
+    color: #333;
 }
 
 .mst-games{
@@ -368,7 +362,7 @@ form input{
 
 .mstp-games{
     width: 100%;
-    height: 270px;
+    height: 275px;
     background-color: #fff;
     border-radius: 25px;
     display: flex;
@@ -379,17 +373,21 @@ form input{
     position: relative;
 }
 
-.mstp-games img{
+.mstp-games a img{
     width: 100%;
     height: 170px;
     border-radius: 25px;
     margin-bottom: 5px;
-
 }
 
-.mstp-games h2 a{
-    text-decoration: none;
-    color: #000;
+.mstp-games:hover .game-name{
+    color: #0173f1;
+    transition: all 0.3s ease;
+}
+
+.mstp-games:hover .explore{
+    background-color: #0173f1;
+    transition: all 0.3s ease;
 }
 
 .text-mstp{
@@ -398,15 +396,15 @@ form input{
     flex-direction: column; 
     align-items: center;
     margin-bottom: 4px;
+}
 
+.gray-text{
+    font-size: 0.85rem;
+    color: #777;
 }
 
 .game-name{
-    margin-bottom: 0px;
-}
-
-.game-name:hover{
-    color: #0173f1;
+    font-weight: 500;
 }
 
 .explore{
@@ -414,10 +412,6 @@ form input{
     padding: 10px 15px;
     border-radius: 25px;
     color: #ffffff;
-}
-
-.explore:hover{
-    background-color: #0173f1;
 }
 
 .explore a{
@@ -428,25 +422,13 @@ form input{
 /* Top Caregories */
 
 .top-cate{
-    width: 90%;
+    width: 88%;
     height: 500px;
     margin: 80px auto;
     display: flex;
     justify-content: start;
     flex-direction: column;
     align-items: center;
-}
-
-.title-tp{
-    margin-bottom: 10px;
-    color: #fa4d5a;
-    font-weight: 700;
-    font-size: 17px;
-}
-
-.title-1-tp{
-    font-weight: 700;
-    font-size: 40px;
 }
 
 .top-games{
@@ -461,18 +443,19 @@ form input{
     background-color: #0173f1;
     border-radius: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
-.tp-sub-games img{
+.tp-sub-games a img{
     width: 100%;
     height: auto;
     border-radius: 25px;
-    margin: auto;
+    margin: 0 auto -7px;
 }
 
 .tp-sub-games h3{
+    font-weight: 600;
     text-align: center;
     margin: 20px 0px;
     color: #fff;
@@ -530,13 +513,6 @@ form input{
     margin-bottom: 60px;
 }
 
-.h3-title{
-    color: #fa4d5a;
-    font-weight: 1000;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
 .h1-title{
     margin-bottom: 50px;
 }
@@ -560,13 +536,6 @@ form input{
 .txt-2-sub{
     width: 75%;
     margin: 80px auto;
-}
-
-.txt-2-sub h3{
-    color: #fa4d5a;
-    font-weight: 1000;
-    font-size: 16px;
-    margin-bottom: 20px;  
 }
 
 .h-one-title{
