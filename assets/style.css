@@ -226,6 +226,7 @@ form input{
 
 .title-trending{
     font-size: 1rem;
+    font-weight: 600;
     color: #fa4d5a;
     margin-bottom: 1rem;
 }
@@ -319,18 +320,18 @@ form input{
 }
 
 .icon-shop{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 40px;
+    height: 40px;
     color: #fff;
     text-align: center;
     background-color: #ef5860;
-    padding: 0.7rem 0.7rem 0.9rem;
+    padding: 10px 0px 5px;
     border-radius: 50%;
 }
 
 .game-title{
     position: absolute;
-    margin-top: -1rem;
+    margin-top: -15px;
 }
 
 /* Most Played */
@@ -464,12 +465,69 @@ form input{
 /* last section */
 
 .main-1{
-    width: 90%;
+    width: 88%;
     height: 700px;
     margin: auto;
     display: flex;
     justify-content: center;
     margin-bottom: 110px;
+    position: relative;
+}
+
+.text-1{
+    width: 450px;
+    min-height: 600px;
+    height: auto;
+    background-color: #eee;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 10;
+    margin-left: -660px;
+    margin-top: 80px;
+}
+
+.txt-1-sub{
+    width: 65%;
+    margin: 60px auto;
+}
+
+.txt-1-sub .title-trending{
+    margin-bottom: 15px;
+}
+
+.last-part-text{
+    margin-bottom: 40px;
+}
+
+.last-part-text p{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.color-title{
+    color: #0173f1;
+}
+
+.last-part-text-para{
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 50px;
+}
+
+.shop-now{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px 25px;
+}
+
+.shop-now:hover{
+    background-color: #0173f1;
+    transition: all 0.3s ease;
 }
 
 .img-1{
@@ -481,20 +539,10 @@ form input{
     border-radius: 25px;
 }
 
-.text-1{
-    width: 450px;
-    height: 600px;
-    background-color: #eee;
-    border-radius: 25px;
-    position: absolute;
-    z-index: 10;
-    margin-left: -660px;
-    margin-top: 80px;
-}
-
 .text-2{
     width: 450px;
-    height: 465px;
+    min-height: 465px;
+    height: auto;
     background-color: #eee;
     border-radius: 25px;
     position: absolute;
@@ -503,58 +551,32 @@ form input{
     margin-top: 215px;
 }
 
-.txt-1-sub{
-    width: 65%;
-    margin: 70px auto;
-}
-
-.txt-1-sub p{
-    color: #444;
-    margin-bottom: 60px;
-}
-
-.h1-title{
-    margin-bottom: 50px;
-}
-
-.h1-title h1{
-    font-size: 45px;
-}
-
-.color-h1-title{
-    color: #0173f1;
-}
-
-.shop-now{
-    text-decoration: none;
-    background-color: #fa4d5a;
-    color: #fff;
-    border-radius: 25px;
-    padding: 15px 30px;
-}
-
 .txt-2-sub{
     width: 75%;
     margin: 80px auto;
 }
 
-.h-one-title{
-    font-size: 40px;
-    font-weight: 800;
+.last-text-2{
+    font-size: 2.4rem;
+    font-weight: 600;
 }
 
-.h-one-title-last{
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 45px;
+.last-text-2 span{
+    color: #0173f1;
+}
+
+.email-input{
+    position: relative;
+    margin-top: 30px;
 }
 
 .email-input input{
+    width: 337px;
     outline: none;
     background-color: #fff;
     padding: 17px 0px;
     padding-left: 20px;
-    padding-right: 150px;
+    padding-right: 200px;
     border-radius: 35px;
     border: none;
 }
@@ -563,18 +585,25 @@ form input{
     outline: 4px solid rgba(1, 115, 241, 0.3);
 }
 
-.btn-email{
-    text-decoration: none;
+.email-input a p{
+    font-weight: 400;
+    background-color: #ff6b6b;
     position: absolute;
-    color: #fff;
-    background-color: #fa4d5a;
-    padding: 15px 35px;
+    padding: 13px 25px;
     border-radius: 35px;
-    margin-left: -180px;
+    margin-top: -48.9px;
+    margin-left: 159px;
 }
 
-.btn-email:hover{
+.email-input p:hover{
     background-color: #0173f1;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-email{
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Footer */
