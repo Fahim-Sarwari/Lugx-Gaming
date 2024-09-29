@@ -627,7 +627,7 @@ footer p{
 
 .background-img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-image: url(../images/page-heading-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -667,7 +667,7 @@ footer p{
 }
 
 .filters{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 }
 
@@ -683,8 +683,8 @@ footer p{
 }
 
 .filters label{
-	font-weight: 800;
-	font-size: 17px;
+	font-weight: 600;
+	font-size: 1rem;
 	color: #333;
 	background-color: #eee;
 	padding: 8px 17px;
@@ -704,7 +704,7 @@ footer p{
 }
 
 .game-list{
-	width: 90%;
+	width: 88%;
 	margin: 70px auto 80px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -785,8 +785,9 @@ footer p{
 }
 
 .game-catagory{
+    font-size: 0.8rem;
 	color: #777;
-	font-weight: 550;
+	font-weight: 450;
 }
 
 .icon-shop{
@@ -800,7 +801,9 @@ footer p{
 }
 
 .game-name{
-	color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+	color: #333;
 	position: absolute;
 	margin-top: -25px;
 	margin-left: 25px;
