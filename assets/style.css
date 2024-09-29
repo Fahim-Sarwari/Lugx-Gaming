@@ -810,7 +810,7 @@ footer p{
 }
 
 .buttons{
-	width: 90%;
+	width: 88%;
 	margin: 0px auto 180px;
 	display: flex;
 	justify-content: center;
@@ -866,7 +866,7 @@ footer p{
 
 .text-top-page{
 	text-align: center;
-	margin-top: 105px;
+	margin-top: 70px;
 }
 
 .text-top-page h1{
@@ -874,17 +874,17 @@ footer p{
 	margin-bottom: 15px;
 }
 
-.text-top-page h3 , h3 a{
+.text-top-page p , p a{
 	color: #fff;
 	font-weight: 500;
 }
 
-.text-top-page h3 a{
+.text-top-page p a{
 	text-decoration: none;
 }
 
 .shop-info{
-	width: 90%;
+	width: 88%;
 	margin: 250px auto 60px;
 	display: flex;
 	gap: 100px;
@@ -899,14 +899,15 @@ footer p{
 }
 
 .shop-text-sub{
-	width: 90%;
+	width: 88%;
 }
 
 .shop-image img{
 	width: 100%;
 }
 
-.shop-text h1{
+.shop-text-sub h2{
+    font-size: 1.6rem;
 	color: #000;
 	margin-bottom: 20px;
 }
@@ -929,6 +930,7 @@ footer p{
 
 .para{
 	margin-top: 10px;
+    font-size: 0.9rem;
 }
 
 .buy-button{
@@ -969,7 +971,9 @@ footer p{
 }
 
 .game-info p{
-	width: 270px;
+    font-size: 0.9rem;
+    font-weight: 400;
+	width: 300px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: space-between;
@@ -986,10 +990,11 @@ footer p{
 
 .the-info a{
 	text-decoration: none;
+    font-weight: 400;
 }
 
 #after-div{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 	border: none;
 	height: 0.5px;
@@ -998,7 +1003,7 @@ footer p{
 }
 
 .desc-container{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 	padding: 40px 70px;
 	border-radius: 25px;
@@ -1010,7 +1015,7 @@ footer p{
 }
 
 .tab-label{
-	font-size: 24px;
+	font-size: 1.2rem;
 	font-weight: bold;
 	color: #000;
 	padding-top: 10px;
@@ -1048,12 +1053,6 @@ footer p{
 	margin: 100px auto 140px;
 }
 
-#first-child{
-	color: #ff6b6b;
-	font-size: 15px;
-	font-weight: 700;
-}
-
 .related-sub-div p a{
 	text-decoration: none;
 	color: #fff;
@@ -1073,10 +1072,11 @@ footer p{
 .related-sub-div{
 	display: flex;
 	justify-content: space-between;
-	margin: 15px auto 40px;
+	margin: 15px auto 70px;
 }
 
-.related-sub-div h1{
+.related-sub-div h3{
+    font-size: 2rem;
 	color: #000;
 }
 
@@ -1097,7 +1097,7 @@ footer p{
 	border-radius: 35px;
 }
 
-.games-div h3{
+.games-div p{
 	margin: 18px 0px 15px;
 }
 
