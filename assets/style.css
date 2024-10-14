@@ -347,7 +347,7 @@ form input{
 .most-played{
     width: 88%;
     margin: auto;
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .title h2{
@@ -363,12 +363,12 @@ form input{
 
 .mstp-games{
     width: 100%;
-    height: 275px;
+    height: 280px;
     background-color: #fff;
     border-radius: 25px;
     display: flex;
     justify-content: start;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
     position: relative;
@@ -381,7 +381,7 @@ form input{
     margin-bottom: 5px;
 }
 
-.mstp-games:hover .game-name{
+.mstp-games:hover .game-name-mp{
     color: #0173f1;
     transition: all 0.3s ease;
 }
@@ -392,8 +392,8 @@ form input{
 }
 
 .text-mstp{
+    text-align: center;
     display: flex;
-    justify-content: center;
     flex-direction: column; 
     align-items: center;
     margin-bottom: 4px;
@@ -402,10 +402,12 @@ form input{
 .gray-text{
     font-size: 0.85rem;
     color: #777;
+    margin-bottom: 5px;
 }
 
-.game-name{
+.game-name-mp{
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .explore{
