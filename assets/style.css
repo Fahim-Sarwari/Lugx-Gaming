@@ -623,11 +623,11 @@ footer p{
     color: #fff
 }
 
-/*  */
+/* Our Shop */
 
 .background-img {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-image: url(../images/page-heading-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -640,72 +640,22 @@ footer p{
     z-index: -1;
 }
 
-header {
-    position: relative;
-    z-index: 1; 
-}
-
-
-/* Header-Shop */
-
-.header-shop{
-	width: 90%;
-	margin: auto;
-}
-
-.nav-shop{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 45px;
-}
-
-.nav-shop ul{
-	display: flex;
-	margin-top: 20px;
-}
-
-.nav-shop ul li{
-	list-style-type: none;
-	margin-left: 35px;
-}
-
-.nav-shop ul li a{
-	text-decoration: none;
-	border-radius: 35px;
-	padding: 10px 20px;
-	color: #fff;
-	font-weight: 450;
-}
-
-.nav-hover:hover{
-	background-color: rgba(255, 255, 255, 0.1);
-}
-
-.sign-in{
-	background-color: #ff6b6b;
-}
-
-.main-focus{
-	background-color: rgba(255, 255, 255, 0.1);
-}
-
 /* body */
 
 .txt-body{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 	text-align: center;
 	margin-top: 70px;
 	margin-bottom: 250px;
-	
 }
 
-.txt-body h3 a, h1, .txt-body h3{
+.txt-body p a, h1, .txt-body p{
 	text-decoration: none;
 	color: #fff;
 }
 
-.txt-body h3 a, .txt-body h3{
+.txt-body p a, .txt-body p{
 	font-weight: 400;
 }
 
@@ -716,7 +666,7 @@ header {
 }
 
 .filters{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 }
 
@@ -732,8 +682,8 @@ header {
 }
 
 .filters label{
-	font-weight: 800;
-	font-size: 17px;
+	font-weight: 600;
+	font-size: 1rem;
 	color: #333;
 	background-color: #eee;
 	padding: 8px 17px;
@@ -753,7 +703,7 @@ header {
 }
 
 .game-list{
-	width: 90%;
+	width: 88%;
 	margin: 70px auto 80px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -792,7 +742,7 @@ header {
 	cursor: pointer;
 }
 
-.games h3:hover{
+.games h2:hover{
 	cursor: text;
 }
 
@@ -806,7 +756,7 @@ header {
 
 .games img{
 	width: 100%;
-	border-radius: 35px;
+	border-radius: 25px;
 }
 
 .price-tag{
@@ -834,8 +784,9 @@ header {
 }
 
 .game-catagory{
+    font-size: 0.8rem;
 	color: #777;
-	font-weight: 550;
+	font-weight: 450;
 }
 
 .icon-shop{
@@ -849,14 +800,16 @@ header {
 }
 
 .game-name{
-	color: #000;
+    font-size: 1.1rem;
+    font-weight: 600;
+	color: #333;
 	position: absolute;
 	margin-top: -25px;
 	margin-left: 25px;
 }
 
 .buttons{
-	width: 90%;
+	width: 88%;
 	margin: 0px auto 180px;
 	display: flex;
 	justify-content: center;
@@ -907,81 +860,12 @@ header {
 	transition: all 0.1s ease;
 }
 
-/* footer */
-
-footer{
-	width: 100%;
-	height: 150px;
-	background-image: url(../images/footer-bg.jpg);
-	background-position: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-top-left-radius: 150px;
-	border-top-right-radius: 150px;
-}
-
-footer p{
-	color: #fff;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 30px;
-}
-
-
 /* Product Details Page */
-
-/* Header */
-
-.background-pd{
-	width: 100%;
-	height: 440px;
-	background-image: url(../images/page-heading-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: absolute;
-	border-bottom-left-radius: 150px;
-	border-bottom-right-radius: 150px;
-	z-index: -1;
-}
-
-#nav-pd{
-	width: 85%;
-	margin: auto;
-	padding-top: 40px;
-	display: flex;
-	justify-content: space-between;
-}
-
-#nav-pd ul{
-	display: flex;
-	gap: 20px;
-	padding-top: 15px;
-}
-
-#nav-pd ul li{
-	list-style-type: none;
-}
-
-#nav-pd ul li a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 17.5px;
-	font-weight: 350;
-	padding: 8.5px 21px;
-	border-radius: 35px;
-}
-
-#nav-pd ul li .hovers:hover{
-	background-color: rgba(255, 255, 255, 0.1);
-	transition: all 0.2s ease;
-}
-
 /* Body */
 
 .text-top-page{
 	text-align: center;
-	margin-top: 105px;
+	margin-top: 70px;
 }
 
 .text-top-page h1{
@@ -989,17 +873,17 @@ footer p{
 	margin-bottom: 15px;
 }
 
-.text-top-page h3 , h3 a{
+.text-top-page p , p a{
 	color: #fff;
 	font-weight: 500;
 }
 
-.text-top-page h3 a{
+.text-top-page p a{
 	text-decoration: none;
 }
 
 .shop-info{
-	width: 90%;
+	width: 88%;
 	margin: 250px auto 60px;
 	display: flex;
 	gap: 100px;
@@ -1014,14 +898,15 @@ footer p{
 }
 
 .shop-text-sub{
-	width: 90%;
+	width: 88%;
 }
 
 .shop-image img{
 	width: 100%;
 }
 
-.shop-text h1{
+.shop-text-sub h2{
+    font-size: 1.6rem;
 	color: #000;
 	margin-bottom: 20px;
 }
@@ -1044,6 +929,7 @@ footer p{
 
 .para{
 	margin-top: 10px;
+    font-size: 0.9rem;
 }
 
 .buy-button{
@@ -1084,7 +970,9 @@ footer p{
 }
 
 .game-info p{
-	width: 270px;
+    font-size: 0.9rem;
+    font-weight: 400;
+	width: 300px;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	justify-content: space-between;
@@ -1101,10 +989,11 @@ footer p{
 
 .the-info a{
 	text-decoration: none;
+    font-weight: 400;
 }
 
 #after-div{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 	border: none;
 	height: 0.5px;
@@ -1113,7 +1002,7 @@ footer p{
 }
 
 .desc-container{
-	width: 90%;
+	width: 88%;
 	margin: auto;
 	padding: 40px 70px;
 	border-radius: 25px;
@@ -1125,7 +1014,7 @@ footer p{
 }
 
 .tab-label{
-	font-size: 24px;
+	font-size: 1.2rem;
 	font-weight: bold;
 	color: #000;
 	padding-top: 10px;
@@ -1163,12 +1052,6 @@ footer p{
 	margin: 100px auto 140px;
 }
 
-#first-child{
-	color: #ff6b6b;
-	font-size: 15px;
-	font-weight: 700;
-}
-
 .related-sub-div p a{
 	text-decoration: none;
 	color: #fff;
@@ -1188,10 +1071,11 @@ footer p{
 .related-sub-div{
 	display: flex;
 	justify-content: space-between;
-	margin: 15px auto 40px;
+	margin: 15px auto 70px;
 }
 
-.related-sub-div h1{
+.related-sub-div h3{
+    font-size: 2rem;
 	color: #000;
 }
 
@@ -1212,7 +1096,7 @@ footer p{
 	border-radius: 35px;
 }
 
-.games-div h3{
+.games-div p{
 	margin: 18px 0px 15px;
 }
 
@@ -1252,11 +1136,6 @@ header{
 	margin-top: 20px;
 }
 
-.text{
-	text-align: center;
-	margin-top: 120px;
-}
-
 .text h1{
 	font-size: 60px;
 	margin-bottom: 10px;
@@ -1284,12 +1163,6 @@ header{
 	border-radius: 25px;
 	min-width: 100%;
 	max-width: 100%;
-}
-
-.text-part h3{
-	color: #ff6b6b;
-	font-size: 17px;
-	margin-bottom: 20px;
 }
 
 #p-1{
@@ -1356,3 +1229,5 @@ header{
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
+
+/*  */
