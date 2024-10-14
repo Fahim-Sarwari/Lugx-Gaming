@@ -623,7 +623,7 @@ footer p{
     color: #fff
 }
 
-/*  */
+/* Our Shop */
 
 .background-img {
     width: 100%;
@@ -648,7 +648,6 @@ footer p{
 	text-align: center;
 	margin-top: 70px;
 	margin-bottom: 250px;
-	
 }
 
 .txt-body p a, h1, .txt-body p{
@@ -743,7 +742,7 @@ footer p{
 	cursor: pointer;
 }
 
-.games h3:hover{
+.games h2:hover{
 	cursor: text;
 }
 
@@ -1137,11 +1136,6 @@ header{
 	margin-top: 20px;
 }
 
-.text{
-	text-align: center;
-	margin-top: 120px;
-}
-
 .text h1{
 	font-size: 60px;
 	margin-bottom: 10px;
@@ -1169,12 +1163,6 @@ header{
 	border-radius: 25px;
 	min-width: 100%;
 	max-width: 100%;
-}
-
-.text-part h3{
-	color: #ff6b6b;
-	font-size: 17px;
-	margin-bottom: 20px;
 }
 
 #p-1{
@@ -1241,3 +1229,5 @@ header{
 	cursor: pointer;
 	transition: all 0.3s ease;
 }
+
+/*  */
